@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_contact_forms",
+  "info": {
+    "displayName": "ContactForm"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "component": "shared.heading",
+      "repeatable": false
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    }
+  },
+  "config": {}
+}

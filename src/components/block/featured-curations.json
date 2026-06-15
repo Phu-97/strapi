@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_block_featured_curations",
+  "info": {
+    "displayName": "FeaturedCurations"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "component": "shared.heading",
+      "repeatable": false
+    },
+    "Cards": {
+      "type": "component",
+      "component": "shared.card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

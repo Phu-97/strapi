@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_block_cta_showrooms",
+  "info": {
+    "displayName": "CtaShowroom"
+  },
+  "options": {},
+  "attributes": {
+    "SubText": {
+      "type": "component",
+      "component": "shared.sub-text",
+      "repeatable": false
+    },
+    "Heading": {
+      "type": "component",
+      "component": "shared.heading",
+      "repeatable": false
+    },
+    "Button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

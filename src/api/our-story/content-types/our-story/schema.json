@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_stories",
+  "info": {
+    "singularName": "our-story",
+    "pluralName": "our-stories",
+    "displayName": "OurStory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "block.banner-story",
+        "block.about-section",
+        "block.slogent",
+        "block.structural",
+        "block.cta-showroom",
+        "shared.seo"
+      ]
+    }
+  }
+}

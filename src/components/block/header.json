@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_block_headers",
+  "info": {
+    "displayName": "Header"
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "component",
+      "component": "shared.logo",
+      "repeatable": false
+    },
+    "Menu": {
+      "type": "component",
+      "component": "shared.menu",
+      "repeatable": true
+    },
+    "Button": {
+      "type": "component",
+      "component": "shared.righ-menu",
+      "repeatable": true
+    },
+    "Social": {
+      "type": "component",
+      "component": "shared.social",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

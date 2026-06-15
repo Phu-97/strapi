@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_sub_texts",
+  "info": {
+    "displayName": "SubText"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

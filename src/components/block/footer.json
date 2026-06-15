@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_block_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "component",
+      "component": "shared.logo",
+      "repeatable": false
+    },
+    "CopyRight": {
+      "type": "string"
+    },
+    "Menu": {
+      "type": "component",
+      "component": "shared.menu",
+      "repeatable": true
+    },
+    "Social": {
+      "type": "component",
+      "component": "shared.social",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

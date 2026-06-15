@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_righ_menus",
+  "info": {
+    "displayName": "RighMenu"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

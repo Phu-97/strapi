@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_block_hero_banners",
+  "info": {
+    "displayName": "HeroBanner"
+  },
+  "options": {},
+  "attributes": {
+    "SubText": {
+      "type": "string"
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "Buttons": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": true
+    },
+    "Background": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    }
+  },
+  "config": {}
+}

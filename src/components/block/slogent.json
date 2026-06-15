@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_block_slogents",
+  "info": {
+    "displayName": "Slogent"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "component": "shared.heading",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
