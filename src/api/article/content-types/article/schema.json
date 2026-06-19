@@ -6,47 +6,44 @@
     "pluralName": "articles",
     "displayName": "Article"
   },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-
     "description": {
       "type": "text",
       "maxLength": 80
     },
-
     "content": {
-      "type": "richtext"
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
     },
-
     "slug": {
       "type": "uid",
       "targetField": "title"
     },
-
     "cover": {
       "type": "media",
       "multiple": false
     },
-
     "author": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::author.author",
       "inversedBy": "articles"
     },
-
     "category": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "articles"
-    },
-
-    "blocks": {
-      "type": "dynamiczone",
-      "components": []
     }
   }
 }
